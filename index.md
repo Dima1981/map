@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>карта</title>
+	<link rel="stylesheet" type="text/css" href="pablic/style.css">
+</head>
+<body>
+	<div class="city">
+		<a href="#" class="msk">Москва</a>
+		<a href="#" class="kzn">Казань</a>
+		<a href="#" class="ek">Екатеринбург</a>
+		<a href="#" class="cam">Самара</a>
+		<a href="#" class="orwn">Оренбург</a>
+	</div>
 
-You can use the [editor on GitHub](https://github.com/Dima1981/map/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<div class="map">
+		<img src="pablic/map.png">
+		<div class="map__metka map__metka1"></div>
+		<div class="map__metka map__metka2"></div>
+		<div class="map__metka map__metka3"></div>
+		<div class="map__metka map__metka4"></div>
+		<div class="map__metka map__metka5"></div>
+	</div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dima1981/map/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+		<script src="pablic/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="pablic/main.js"></script>
+</body>
+</html>
