@@ -1,0 +1,42 @@
+.city {
+	float: left;
+	width: 10%;
+	border: 1px solid #eee;
+}
+		.map {
+			float: right;
+			width: 88%;
+			height: auto;
+			position: relative;
+		}
+.map__metka {
+	position: absolute;
+	background-image: url(metka.png);
+	width: 71px;
+	height: 84px;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.map__metka1 {
+	top: 118px;
+	left: 104px;
+}
+.map__metka2 {
+	left: 389px;
+	top: 124px;
+}
+.map__metka3 {
+	left: 676px;
+	top: 79px;
+}
+.map__metka4 {
+	left: 414px;
+	top: 235px;
+}
+.map__metka5 {
+	left: 538px;
+	top: 292px;
+}
+a {
+	display: block;
+}
